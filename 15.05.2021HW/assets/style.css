@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    
+    background-color: rgb(31, 47, 92);
+    height: 50px;
+    
+    
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav{
+    display: inline-block;
+}
+.right-nav{
+    display: inline-block;
+}
+
+.mil{
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    border-radius: 4px;
+    background-color:cyan;
+    border: 2px solid cyan;
+    margin: 20px 10px ;
+}
+
+.cub{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background-color:cyan;
+    border: 2px solid cyan;
+   margin-left: 15px;
+   margin-top: 3px;
+}
+.nav2{
+    display: flex;
+    height: 100px;
+   align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+.nav2-left{
+    display: inline-block;
+    width: 185px;
+    height: 50px;
+    border-radius: 15px;
+    background-color:rgb(31, 47, 92);
+    border: 2px solid rgb(31, 47, 92);
+   
+}
+.nav2-right{
+    display: flex;
+    align-items:flex-end;
+}
+.nav2-right .mil{
+    margin: 0 10px;
+}
+.head-main{
+    
+    height: 400px;
+    background-color:rgb(31, 47, 92);
+}
+.wht{
+    background-color: white;
+    border: white;
+}
+.first-head-main{
+    padding-top:50px;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+.but-head-main{
+    margin-left: 45%;
+    width: 150px;
+    height: 30px;
+    border: 2px solid cyan;
+    border-radius: 20px;
+    background-color: cyan;
+    margin-top: 20px;
+    
+}
+.card-head-main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.crd{
+    width: 310px;
+    height: 250px;
+    border-radius: 15px;
+    background-color:cyan;
+    border: 2px solid cyan;
+   margin: 0 20px;
+}
+.center{
+    height: 2500px;
+    background-color: rgb(236, 236, 236);
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.cards{
+    
+    margin:30px 10px;
+    display:inline-block;
+    position: relative;
+    width: 470px;
+    height: 550px;
+    border: 5px solid rgb(31, 47, 92);
+    border-radius: 15px;
+    
+}
+.cards .mil{
+    background-color:rgb(31, 47, 92) ;
+    border: rgb(31, 47, 92);
+}
+.photo{
+    position: absolute;
+    width: 425px;
+    height: 215px;
+    border: 2px solid rgb(31, 47, 92);
+    border-radius: 15px;
+    background-color: rgb(31, 47, 92);
+    top: 4%;
+    left: 4%;
+}
+.first-line{
+    position: absolute;
+    display: flex;
+    justify-content:space-between ;
+    top: 47%;
+    left: 2%;
+}
+.second-line{
+    position: absolute;
+    display: flex;
+    justify-content:space-between ;
+    top: 53%;
+    left: 2%;
+}
+.third-line{
+    position: absolute;
+    display: flex;
+    justify-content:space-between ;
+    top: 59%;
+    left: 2%;
+}
+.last-line{
+    position: absolute;
+    display: flex;
+    justify-content:space-between ;
+    top: 65%;
+    left: 2%;
+}
+.btn-line{
+    position: absolute;
+    display: flex;
+    justify-content:space-between ;
+    top: 90%;
+    left: 2%;
+}
+.first-btn{
+    width: 100px;
+    height: 30px;
+    border: 2px solid cyan;
+    border-radius: 20px;
+    background-color: cyan;
+    margin-right: 170px;
+}
+.second-btn .cub{
+    margin-top: 0;
+}
+.titel2{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 310px;
+    height: 310px;
+    background-color:cyan;
+    border: 2px solid cyan;
+   margin: 30px 20px;
+}
+.radius{
+    display: flex;
+    justify-content: center;
+}
+.hole{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color:rgb(31, 47, 92);
+    border: 2px solid rgb(31, 47, 92);
+   margin: 80px 110px;
+}
+.hole .mil {
+    position: absolute;
+    top: 235px;
+}
+.hole2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color:rgb(31, 47, 92);
+    border: 2px solid rgb(31, 47, 92);
+   margin: 0 20px;
+}
+.hole2 .mil{
+    position: absolute;
+    top: 316px;
+}
+.col-1{
+    width: calc(100%*1/12);
+}
+.col-2{
+    width: calc(100%*1/12);
+}
+.col-3{
+    width: calc(100%*3/12);
+}
+.col-4{
+    width: calc(100%*4/12);
+}
+.col-5{
+    width: calc(100%*5/12);
+}
+.col-6{
+    width: calc(100%*6/12);
+}
+.col-7{
+    width: calc(100%*7/12);
+}
+.col-8{
+    width: calc(100%*8/12);
+}
+.col-9{
+    width: calc(100%*9/12);
+}
+.col-10{
+    width: calc(100%*10/12);
+}
+.col-11{
+    width: calc(100%*11/12);
+}
+.col-12{
+    width: 100%;
+}
